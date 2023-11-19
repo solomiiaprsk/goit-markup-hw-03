@@ -1,0 +1,147 @@
+body {font-family:"Roboto", sans-serif; 
+    color: #434455; 
+    font-size: 16px; 
+    font-weight: 500;
+    line-height: 1.5;
+    background-color: #FFF;}
+
+.list {list-style-type: none;}
+.navigation {list-style-type:none;}
+
+.main-logo {color: #4d5ae5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration:none;}
+
+span {color: #2e2f42;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;}
+
+.top-nav-list {color: #2E2F42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
+
+.top-nav-list:hover, .top-nav-list:focus {color:#404BBF;}   
+.nav-contacts {font-style: normal;}
+
+.contacts {
+    color:#434455; 
+    letter-spacing: 0.02em;}
+.contacts:hover, 
+.contacts:focus {
+    color: #404BBF;}
+
+.title {color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+.starting-page {background-color: #2E2F42;}
+
+.click-order {color: #FFF;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;} 
+
+.click-order:hover, 
+.click-order:focus {; 
+    cursor:pointer;
+    background-color: #404BBF; 
+    text-decoration: none;
+    }
+
+
+.second-title {color: #2E2F42;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    background-color: #FFF;
+    }
+
+
+        
+.values-names, .team-members, .portfolio-list {color: #2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;}
+
+.about-values, .teammember-position {color: #434455;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
+.portfolio-list-description {letter-spacing: 0.02em;}
+.about-us {background: #F4F4FD;}
+.second-title-second {
+        color: #2E2F42;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.11;
+        text-align: center;
+        text-transform: capitalize;
+        letter-spacing: 0.02em;
+        background-color: #F4F4FD;
+    }
+
+.our-team-cards {background: #FFF;}
+
+
+.page-end {background-color: #2E2F42;}
+.end-text {color: #F4F4FD;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
+    
+.end-logo {color:#4d5ae5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;}
+
+.end-logo-studio-world {color:#f4f4fd;
+}
+
+
+
