@@ -33,20 +33,33 @@ body {font-family:"Roboto", sans-serif;
 .list {list-style-type: none;}
 .navigation {list-style-type:none;}
 
+.header {border-bottom: 1px solid #e7e9fc;}
+
+.page-header-container {
+    display:flex; 
+    justify-content: space-between;
+}
+.main-logo {margin-right: 76px;}
+
 .header-line {
     display:flex;
     justify-content: space-between;
     align-items:center; 
-    border-bottom: 1px solid #E7E9FC;}
+    }
 
 .page-header-list, .navigation {
     display:flex; 
     gap:40px;}
 
-.top-nav-list {
-    display:block;
+.top-nav-list {display: flex;
+    gap: 40px;
     padding-top:24px; 
     padding-bottom:24px;}
+
+.nav-contacts {display: flex; margin-right:40px;}
+
+.contacts {display:flex;
+    margin-left: 40px;}    
 
 .main-logo {color: #4d5ae5;
     font-family: Raleway, sans-serif;
@@ -102,7 +115,7 @@ text-decoration: none;}
 }
 
 .title {
-    width:496px;
+    max-width:496px;
     margin-left:auto;
     margin-right:auto;
     padding-bottom:60px;
@@ -124,10 +137,14 @@ text-decoration: none;}
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);} 
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;} 
 
 .click-order{
-    display:flex;
+    display:block;
+    min-width: 169px;
+    height: 56px;
+    border:none;
     padding: 16px 32px;
     border-radius:4px;
     margin-right:auto;
@@ -138,6 +155,7 @@ text-decoration: none;}
     cursor:pointer;
     background-color: #404BBF; 
     text-decoration: none;
+    border:none;
     }
 
 
@@ -154,15 +172,15 @@ text-decoration: none;}
     }
     
 .visually-hidden {position:absolute;
-width: 1px;
-height:1px;
-margin:-1px;
-border:0;
-padding:0;
-white-space: nowrap;
-clip-path:inset(100%);
-clip: rect(0 0 0 0);
-overflow:hidden;}
+    width: 1px;
+    height:1px;
+    margin:-1px;
+    border:0;
+    padding:0;
+    white-space: nowrap;
+    clip-path:inset(100%);
+    clip: rect(0 0 0 0);
+    overflow:hidden;}
 
 .section {
     padding-top:120px;
@@ -249,7 +267,7 @@ overflow:hidden;}
 
 .page-end {
     background-color: #2E2F42;
-    padding-top:101.5px;}
+    padding: 100px 0;}
 
 .end-text {color: #F4F4FD;
     font-family: Roboto;
@@ -266,7 +284,9 @@ overflow:hidden;}
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;}
+    text-decoration: none;
+display: inline-block;
+margin-bottom: 16px;}
 
 .end-logo-studio-world {color:#f4f4fd;
 }
