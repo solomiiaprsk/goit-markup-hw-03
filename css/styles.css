@@ -14,6 +14,7 @@ ol {
 img {
     display:block;}
 
+
 .container {
     max-width:1158px;
     padding-left: 15px;
@@ -177,19 +178,23 @@ overflow:hidden;}
 
 .values-names {padding-bottom:8px;}
 
-.second-title-second {padding-bottom:72px;}
+.second-title-second, .second-title {padding-bottom:72px;}
 
-.our-team-cards {
+.our-team-cards {display:flex;
+    flex-direction: column;
+    align-items: center;
     height:380px;
     border-radius: 0px 0px 4px 4px;
 }
 
 .team-members {
     padding-top:32px;
-    padding-right:65px;}
+    padding-bottom:8px;}
 
 
-.portfolio {flex-wrap:wrap;}
+.portfolio {
+    flex-wrap:wrap;
+    border: 1px solid #E7E9FC;}
 
     
 
@@ -201,7 +206,8 @@ overflow:hidden;}
     line-height: 1.2;
     letter-spacing: 0.02em;}
 
-.about-values, .teammember-position {color: #434455;
+.about-values, .teammember-position, .portfolio-list-description {
+    color: #434455;
         font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
@@ -227,7 +233,10 @@ overflow:hidden;}
 .our-team-cards {background: #FFF;}
 
 
-.page-end {background-color: #2E2F42;}
+.page-end {
+    background-color: #2E2F42;
+    padding-top:101.5px;}
+
 .end-text {color: #F4F4FD;
     font-family: Roboto;
     font-size: 16px;
@@ -248,5 +257,10 @@ overflow:hidden;}
 .end-logo-studio-world {color:#f4f4fd;
 }
 
+
+.end-text {padding-top:17.5px;
+    padding-bottom:100px;
+    width:264px;
+}
 
 
