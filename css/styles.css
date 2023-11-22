@@ -56,6 +56,9 @@ body {font-family:"Roboto", sans-serif;
 .menu {display: flex; 
     gap: 40px;}
 
+.manu-first {margin-right: 40px;}
+.menu-last {margin-right: 0;}
+
 .navigation, .nav-contacts {display: flex;
     gap: 40px;
     }
