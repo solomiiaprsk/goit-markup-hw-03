@@ -50,12 +50,20 @@ body {font-family:"Roboto", sans-serif;
     }
 
 .page-header-list {
-    display:flex; 
-    gap:40px;}
+    display: flex; 
+    gap: 40px;}
 
 .menu {gap: 40px;}
 
+.nav-contacts {
+    display:flex; 
+    gap: 40px;}
+
 .navigation {display: flex;
+    gap: 40px;}
+
+.nav-menu {
+    display: flex;
     gap: 40px;}
 
 .top-nav-list {display: flex;
