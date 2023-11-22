@@ -38,13 +38,13 @@ body {font-family:"Roboto", sans-serif;
 .page-header-container {
     display:flex; 
     justify-content: space-between;
+    align-items: center;
     gap: 40px;
 }
 .main-logo {margin-right: 76px;}
 
 .header-line {
     display:flex;
-    justify-content: space-between;
     align-items:center; 
     gap: 40px;
     }
@@ -56,20 +56,10 @@ body {font-family:"Roboto", sans-serif;
 .menu {display: flex; 
     gap: 40px;}
 
-.nav-contacts {
-    display:flex; 
-    gap: 40px;}
-
 .navigation {display: flex;
-    gap: 40px;}
+    gap: 40px;
+    }
 
-.nav-menu {
-    display: flex;
-    gap: 40px;}
-
-.contacts {
-            display: flex;
-            gap: 40px;}
 
 .top-nav-list {display: flex;
     gap: 40px;
