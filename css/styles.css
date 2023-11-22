@@ -49,7 +49,7 @@ body {font-family:"Roboto", sans-serif;
     gap: 40px;
     }
 
-.page-header-list {
+.page-header-list, .list page-header-list {
     display: flex; 
     gap: 40px;}
 
