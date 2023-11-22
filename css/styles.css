@@ -49,7 +49,7 @@ body {font-family:"Roboto", sans-serif;
     align-items:center;
     }
 
-.page-header-list, .list page-header-list {
+.page-header-list, .list {
     display: flex; 
     gap: 40px;}
 
@@ -59,8 +59,7 @@ body {font-family:"Roboto", sans-serif;
 .navigation, .nav-contacts {display: flex;
     gap: 40px;
     }
-    
-.main-logo {gap: 40px;}
+
 
 .top-nav-list {display: flex;
     gap: 40px;
