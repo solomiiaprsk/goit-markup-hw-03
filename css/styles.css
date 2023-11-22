@@ -45,15 +45,15 @@ body {font-family:"Roboto", sans-serif;
     display:flex;
     justify-content: space-between;
     align-items:center; 
+    gap: 40px;
     }
 
 .page-header-list, .navigation {
     display:flex; 
     gap:40px;}
 
-.menu {gap: 40px;}
 
-.nav-menu {
+.nav-contacts {
     display: flex; 
     gap:40px;}
 
