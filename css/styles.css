@@ -38,6 +38,7 @@ body {font-family:"Roboto", sans-serif;
 .page-header-container {
     display:flex; 
     justify-content: space-between;
+    gap: 40px;
 }
 .main-logo {margin-right: 76px;}
 
@@ -48,12 +49,15 @@ body {font-family:"Roboto", sans-serif;
     gap: 40px;
     }
 
-.page-header-list, .navigation {
+.page-header-list {
     display:flex; 
     gap:40px;}
 
+.menu {gap: 40px;}
+.navigation {display: flex;
+    gap: 40px;}
 
-.nav-contacts {
+.nav-contacts, .nav-menu {
     display: flex; 
     gap:40px;}
 
