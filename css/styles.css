@@ -54,22 +54,14 @@ body {font-family:"Roboto", sans-serif;
     gap:40px;}
 
 .menu {gap: 40px;}
+
 .navigation {display: flex;
     gap: 40px;}
-
-.nav-contacts, .nav-menu {
-    display: flex; 
-    gap:40px;}
 
 .top-nav-list {display: flex;
     gap: 40px;
     padding-top:24px; 
-    padding-bottom:24px;}
-
-
-
-.contacts {
-    margin-left: 40px;}    
+    padding-bottom:24px;}  
 
 .main-logo {color: #4d5ae5;
     font-family: Raleway, sans-serif;
