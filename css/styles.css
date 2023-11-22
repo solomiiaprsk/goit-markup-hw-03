@@ -53,7 +53,8 @@ body {font-family:"Roboto", sans-serif;
     display: flex; 
     gap: 40px;}
 
-.menu {gap: 40px;}
+.menu {display: flex; 
+    gap: 40px;}
 
 .nav-contacts {
     display:flex; 
@@ -68,8 +69,7 @@ body {font-family:"Roboto", sans-serif;
 
 .contacts {
             display: flex;
-            gap: 40px;
-        }
+            gap: 40px;}
 
 .top-nav-list {display: flex;
     gap: 40px;
