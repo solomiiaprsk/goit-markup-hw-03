@@ -33,15 +33,15 @@ body {font-family:"Roboto", sans-serif;
 .list {list-style-type: none;}
 .navigation {list-style-type:none;}
 
-.header {border-bottom: 1px solid #e7e9fc;}
+.header {border-bottom: 1px solid #e7e9fc; gap: 40px;}
 
 .page-header-container {
     display:flex; 
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    gap: 40px; 
 }
-.main-logo {margin-right: 76px;}
+.main-logo {margin-right: 76px; gap: 40px;}
 
 .header-line {
     display:flex;
