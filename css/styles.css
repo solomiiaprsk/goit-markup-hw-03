@@ -56,8 +56,8 @@ body {font-family:"Roboto", sans-serif;
 .menu {display: flex; 
     gap: 40px;}
 
-.manu-first {margin-right: 40px;}
-.menu-last {margin-right: 0;}
+.menu:not(:last-child) {margin-right: 40px;}
+
 
 .navigation, .nav-contacts {display: flex;
     gap: 40px;
@@ -87,7 +87,8 @@ span {color: #2e2f42;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;}
+    text-decoration: none;
+gap:40px;}
 
 .top-nav-list {color: #2E2F42;
     font-family: Roboto;
